@@ -9,7 +9,7 @@ After reading the following interface instructions, please move to `Rm65_demo` a
 
 ```shell
 cd qp-tools\python 
-python setup.py install  
+pip install --no-build-isolation . 
 ```
 
 If installation fails, please install the corresponding missing environment according to the prompts.

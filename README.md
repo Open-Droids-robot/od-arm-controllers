@@ -39,7 +39,7 @@ open_droids_controllers/
 
 ```bash
 cd r2d3/qp-tools/python
-python setup.py install
+pip install --no-build-isolation .
 ```
 
 Verify installation:
